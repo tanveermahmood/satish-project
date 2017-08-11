@@ -1,0 +1,13 @@
+{
+  "name": "AAOS Test Suite",
+  "status": "unstable",
+  "tests": [
+    "AAOS_TEST_SUITE"
+  ],
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "startTime": 1497954274298,
+  "endTime": 1497954274660
+}

@@ -1,0 +1,10 @@
+#mainlanding.homepage.signin.link = {\"locator\":\"xpath=//a[@href='/login/']\",\"desc\":\"Link for Sign In\"}
+#mainlanding.homepage.header.menu.list = {\"locator\":\"css=.sc-utils-show-desktop-only>li\",\"desc\":\"Header Navigation item list\"}
+#mainlanding.homepage.singlecare.logo = {\"locator\":\"css=.sc-logo\",\"desc\":\"Single Care logo\"}
+#mainlanding.homepage.left.header.section.list = {\"locator\":\"css=#main-header .sc-top-item.left\",\"desc\":\"Left header section item list\"}
+#mainlanding.homepage.right.header.section.list = {\"locator\":\"css=#main-header .sc-top-item.right.show-from-xl\",\"desc\":\"Right header section item list\"}
+mainlanding.homepage.promo.header.text =  {\"locator\":\"css=.masthead--search>h1\",\"desc\":\"Top promo header text\"}
+mainlanding.homepage.promo.body.text =  {\"locator\":\"css=.masthead--search>p\",\"desc\":\"Top promo body text\"}
+mainlanding.homepage.search.input = {\"locator\":\"css=#searchbar\",\"desc\":\"Search bar\"}
+mainlanding.homepage.explore.text = {\"locator\":\"css=.services.sc-block>h2\",\"desc\":\"Explore text\"}
+mainlanding.homepage.explore.icons.list = {\"locator\":\"css=.services__links a\",\"desc\":\"Explore icon list\"}

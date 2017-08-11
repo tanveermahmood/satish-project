@@ -1,0 +1,86 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "email": "qa1.infostretch@gmail.com",
+          "password": "Qa123456",
+          "invalidPassword": "Ta123456",
+          "formatPassword": "ta1111",
+          "invalidemail": "qa@tmail.commm",
+          "sqlemail": "test@example.com' OR 1 = 1 --"
+        }
+      ],
+      "metaData": {
+        "appName": [
+          "SingleCare"
+        ],
+        "author": [
+          "Satish Garnayak"
+        ],
+        "description": "Verify Login page",
+        "groups": [
+          "Regression",
+          "Positive",
+          "Web"
+        ],
+        "key": "logindata",
+        "lineNo": 2.0,
+        "name": "Login - Verify Login page",
+        "referece": "scenarios/web/login.bdd",
+        "sign": "scenarios.web.login.bdd.Login - Verify Login page( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]",
+        "testCaseId": [
+          "TCxxx"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1499424921195,
+      "duration": 11903,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "email": "qa1.infostretch@gmail.com",
+          "password": "Qa123456",
+          "invalidPassword": "Ta123456",
+          "formatPassword": "ta1111",
+          "invalidemail": "qa@tmail.commm",
+          "sqlemail": "test@example.com' OR 1 = 1 --"
+        }
+      ],
+      "metaData": {
+        "appName": [
+          "SingleCare"
+        ],
+        "author": [
+          "Satish Garnayak"
+        ],
+        "description": " Login - correct email and correct password",
+        "groups": [
+          "Regression",
+          "Positive",
+          "Web"
+        ],
+        "key": "logindata",
+        "lineNo": 63,
+        "name": "Login - correct email and correct password",
+        "referece": "scenarios/web/login.bdd",
+        "sign": "scenarios.web.login.bdd.Login - correct email and correct password( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]",
+        "testCaseId": [
+          "TCxxx"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1499424933145,
+      "duration": 11892,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

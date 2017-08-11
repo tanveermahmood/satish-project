@@ -1,0 +1,96 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userNavigates",
+      "args": [
+        "[Home Page]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://qa.singlecare.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 7181
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1248
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifySignInLinkOnHomePage",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href=\"/login/\"], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href=\"/login/\"]\"}\n  (Session info: chrome=58.0.3029.110)\n  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 44 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12040', ip: '10.11.28.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\\Users\\NEHA~1.SEN\\AppData\\Local\\Temp\\scoped_dir5504_10853}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 595e8a27dae87cdcefb24a81d633c714\n*** Element info: {Using=xpath, value=//a[@href=\"/login/\"]}",
+          "subLogs": [],
+          "duration": 51
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href=\"/login/\"], using=xpath}"
+          ],
+          "result": "id: 0.218056837729953-1",
+          "subLogs": [],
+          "duration": 59
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //a[@href=\"/login/\"]",
+            "{\"id\":\"0.218056837729953-1\"}"
+          ],
+          "result": "getElementText:Sign in/Register",
+          "subLogs": [],
+          "duration": 32
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user navigates to 'Home Page'",
+      "type": "TestStepPass",
+      "duration": 11459,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify Sign in Link on home page",
+      "type": "TestStepFail",
+      "screenshot": "img/Verify the login page_mpkzc4ik9caf5361.png",
+      "duration": 1331,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Verify Sign in link on home page\nExpected: \"Sign in | Register\"\n     Actual: was \"Sign in/Register\"",
+          "type": "Fail",
+          "screenshot": "img/Verify the login page_mpkzc4ik9caf5361.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

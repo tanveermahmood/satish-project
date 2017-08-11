@@ -1,0 +1,23 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "Given user navigates to singlecare homepage",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user navigates to singlecare homepage :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: Given user navigates to singlecare homepage@scenarios/suite1.bdd#5 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\r\n\tat .Given user navigates to singlecare homepage(scenarios/suite1.bdd:5)\r\n"
+}

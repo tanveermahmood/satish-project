@@ -1,0 +1,16 @@
+
+SCENARIO: Verify Top Header section
+META-DATA: {"description":"Verify Top Header section","groups":["Regression"],"appName":["SingleCare"],"testCaseId":["TCxxx"],"author":["Neha Sengar"]}
+	Given user is on singlecare 'home' page
+	Then user verifies top navigation section on home page
+END
+
+
+SCENARIO: Verify top promo
+META-DATA: {"description":"Verify top promo","groups":["Regression"],"appName":["SingleCare"],"testCaseId":["TCxxx"],"author":["Neha Sengar"]}
+	Given user is on singlecare 'home' page
+	Then user verifies 'Top Promo' text on home page
+END
+
+
+

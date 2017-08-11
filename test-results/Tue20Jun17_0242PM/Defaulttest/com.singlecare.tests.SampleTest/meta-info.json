@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testGoogleSearch",
+        "sign": "SampleTest.testGoogleSearch()[pri:0, instance:com.singlecare.tests.SampleTest@5579bb86]"
+      },
+      "dependsOn": [],
+      "startTime": 1497949925259,
+      "duration": 13943,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

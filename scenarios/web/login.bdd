@@ -1,0 +1,77 @@
+#Login Positive Test
+SCENARIO: Login - Verify Login page
+META-DATA: {"description":"Verify Login page","groups":["Regression","Positive","Web"],"key":"logindata","appName":["SingleCare"],"testCaseId":["TCxxx"],"author":["Satish Garnayak"]}
+	Given user is on singlecare 'home' page
+	When user navigates to 'signin' page
+	Then user verifies 'login' page
+END
+
+#Login Negative Test
+SCENARIO: Login - Verify user can not login if email and password fields are blank
+META-DATA: {"description":"Verify user can not login if email and password fields are blank","groups":["Regression","Negative","Web"],"appName":["SingleCare"],"testCaseId":["TCxxx"],"author":["Satish Garnayak"]}
+	Given user is on singlecare 'home' page
+	When user navigates to 'signin' page
+	And user login with blank email and blank password
+	Then user gets field error message
+	And verify user unable to log in
+END
+
+SCENARIO: Login - Verify user can not login if email is entered and password field is blank
+META-DATA: {"description":"Verify user can not login if email is entered and password field is blank","groups":["Regression","Negative","Web"],"key":"logindata","appName":["SingleCare"],"testCaseId":["TCxxx"],"author":["Satish Garnayak"]}
+	Given user is on singlecare 'home' page
+	When user navigates to 'signin' page
+	And user login with '${email}' and blank password
+	Then user gets field error message
+	And verify user unable to log in
+END
+
+SCENARIO: Login - Verify user can not login if email is blank and password is entered
+META-DATA: {"description":"Verify user can not login if email is blank and password is entered","groups":["Regression","Negative","Web"],"key":"logindata","appName":["SingleCare"],"testCaseId":["TCxxx"],"author":["Satish Garnayak"]}
+	Given user is on singlecare 'home' page
+	When user navigates to 'signin' page
+	And user login with blank email and '${password}'
+	Then user gets field error message
+	And verify user unable to log in
+END
+
+SCENARIO: Login - Valid registered email and incorrect password
+META-DATA: {"description":"Valid registered email and incorrect password","groups":["Regression","Negative","Web"],"key":"logindata","appName":["SingleCare"],"testCaseId":["TCxxx"],"author":["Satish Garnayak"]}
+	Given user is on singlecare 'home' page
+	When user navigates to 'signin' page
+	And user login with '${email}' and '${invalidPassword}'
+	Then user gets validation error message
+END
+
+SCENARIO: Login - Valid registered email and incorrect format password
+META-DATA: {"description":" Valid registered email and incorrect format password","groups":["Regression","Negative","Web"],"key":"logindata","appName":["SingleCare"],"testCaseId":["TCxxx"],"author":["Satish Garnayak"]}
+	Given user is on singlecare 'home' page
+	When user navigates to 'signin' page
+	And user login with '${email}' and invalid '${formatPassword}'
+	Then user gets password error message
+	And verify user unable to log in
+END
+
+SCENARIO: Login - Incorrect email and incorrect password
+META-DATA: {"description":" Login - Incorrect email and incorrect password","groups":["Regression","Negative","Web"],"key":"logindata","appName":["SingleCare"],"testCaseId":["TCxxx"],"author":["Satish Garnayak"]}
+	Given user is on singlecare 'home' page
+	When user navigates to 'signin' page
+	And user login with '${invalidemail}' and '${invalidPassword}'
+	Then user gets error message
+END
+
+#Login Positive Test
+SCENARIO: Login - correct email and correct password
+META-DATA: {"description":" Login - correct email and correct password","groups":["Regression","Positive","Web"],"key":"logindata","appName":["SingleCare"],"testCaseId":["TCxxx"],"author":["Satish Garnayak"]}
+	Given user is on singlecare 'home' page
+	When user navigates to 'signin' page
+	And user login with '${email}' and '${password}'
+	Then user verifies successful log in
+END
+
+SCENARIO: Login - SQL Injection
+META-DATA: {"description":" Login - SQL Injection","groups":["Regression","Negative","Web"],"key":"logindata","appName":["SingleCare"],"testCaseId":["TCxxx"],"author":["Satish Garnayak"]}
+	Given user is on singlecare 'home' page
+	When user navigates to 'signin' page
+	And user login with invalid '${sqlemail}' and valid '${password}'
+	Then user gets invalid email error message
+END

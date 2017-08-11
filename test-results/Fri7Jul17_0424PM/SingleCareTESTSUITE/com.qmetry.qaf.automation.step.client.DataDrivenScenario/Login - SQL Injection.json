@@ -1,0 +1,296 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchApp",
+      "args": [
+        "[home]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://qa.singlecare.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1440
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "SingleCare: Affordable Health Care & Pharmacy Discount Card",
+          "subLogs": [],
+          "duration": 58
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userPerformOnPage",
+      "args": [
+        "[signin]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@href='/login/'], using=xpath}"
+          ],
+          "result": "[id: 0.6685932924522262-1]",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='/login/'], using=xpath}"
+          ],
+          "result": "id: 0.6685932924522262-1",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[@href='/login/']",
+            "{\"id\":\"0.6685932924522262-1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='/login/'], using=xpath}"
+          ],
+          "result": "id: 0.6685932924522262-1",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@href='/login/']",
+            "{\"id\":\"0.6685932924522262-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1772
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userLoginWithInvalidEmailAndValidPassword",
+      "args": [
+        "[${sqlemail}, ${password}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=form.invalid>div.sc-form-row--email>input, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 54
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=form.invalid>div.sc-form-row--email>input, using=css selector}"
+          ],
+          "result": "[id: 0.4277970808214213-1]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=form.invalid>div.sc-form-row--email>input, using=css selector}"
+          ],
+          "result": "id: 0.4277970808214213-1",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.cssSelector: form.invalid>div.sc-form-row--email>input",
+            "{\"id\":\"0.4277970808214213-1\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=form.invalid>div.sc-form-row--email>input, using=css selector}"
+          ],
+          "result": "id: 0.4277970808214213-1",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: form.invalid>div.sc-form-row--email>input",
+            "{\"id\":\"0.4277970808214213-1\",\"value\":[\"test@example.com' OR 1 = 1 --\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 215
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=form.invalid>div.sc-form-row--password>input, using=css selector}"
+          ],
+          "result": "[id: 0.4277970808214213-2]",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=form.invalid>div.sc-form-row--password>input, using=css selector}"
+          ],
+          "result": "id: 0.4277970808214213-2",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.cssSelector: form.invalid>div.sc-form-row--password>input",
+            "{\"id\":\"0.4277970808214213-2\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=form.invalid>div.sc-form-row--password>input, using=css selector}"
+          ],
+          "result": "id: 0.4277970808214213-2",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: form.invalid>div.sc-form-row--password>input",
+            "{\"id\":\"0.4277970808214213-2\",\"value\":[\"Qa123456\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 91
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userVerifyInvalidEmailMsg",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.sc-form-row--email>span.label-error, using=css selector}"
+          ],
+          "result": "id: 0.4277970808214213-3",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .sc-form-row--email>span.label-error",
+            "{\"id\":\"0.4277970808214213-3\"}"
+          ],
+          "result": "getElementText:Please enter a valid email.",
+          "subLogs": [],
+          "duration": 25
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user is on singlecare 'home' page",
+      "type": "TestStepPass",
+      "duration": 1899,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Page title is SingleCare: Affordable Health Care & Pharmacy Discount Card",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "We are on singlecare page\nExpected: \"SingleCare: Affordable Health Care & Pharmacy Discount Card\"\n     Actual: was \"SingleCare: Affordable Health Care & Pharmacy Discount Card\"",
+          "type": "Pass",
+          "screenshot": "img/Login - SQL Injection_6xpvqpxwhbkc18024.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user navigates to 'signin' page",
+      "type": "TestStepPass",
+      "duration": 1824,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user login with invalid 'test@example.com' OR 1 = 1 --' and valid 'Qa123456'",
+      "type": "TestStepPass",
+      "duration": 1495,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user gets invalid email error message",
+      "type": "TestStepPass",
+      "duration": 355,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Invalid Email Error message Displayed\nExpected: \"Please enter a valid email.\"\n     Actual: was \"Please enter a valid email.\"",
+          "type": "Pass",
+          "screenshot": "img/Login - SQL Injection_1c9aqzy3dg3d418025.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

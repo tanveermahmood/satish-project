@@ -1,0 +1,250 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "email": "qa1.infostretch@gmail.com",
+          "password": "Qa123456",
+          "invalidPassword": "Ta123456",
+          "formatPassword": "ta1111",
+          "invalidemail": "qa@tmail.commm",
+          "sqlemail": "test@example.com' OR 1 = 1 --"
+        }
+      ],
+      "metaData": {
+        "appName": [
+          "SingleCare"
+        ],
+        "author": [
+          "Satish Garnayak"
+        ],
+        "description": "Verify user can not login if email is entered and password field is blank",
+        "groups": [
+          "Regression",
+          "Negative",
+          "Web"
+        ],
+        "key": "logindata",
+        "lineNo": 19.0,
+        "name": "Login - Verify user can not login if email is entered and password field is blank",
+        "referece": "scenarios/web/login.bdd",
+        "sign": "scenarios.web.login.bdd.Login - Verify user can not login if email is entered and password field is blank( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]",
+        "testCaseId": [
+          "TCxxx"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1499662632320,
+      "duration": 5553,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "email": "qa1.infostretch@gmail.com",
+          "password": "Qa123456",
+          "invalidPassword": "Ta123456",
+          "formatPassword": "ta1111",
+          "invalidemail": "qa@tmail.commm",
+          "sqlemail": "test@example.com' OR 1 = 1 --"
+        }
+      ],
+      "metaData": {
+        "appName": [
+          "SingleCare"
+        ],
+        "author": [
+          "Satish Garnayak"
+        ],
+        "description": "Verify user can not login if email is blank and password is entered",
+        "groups": [
+          "Regression",
+          "Negative",
+          "Web"
+        ],
+        "key": "logindata",
+        "lineNo": 28.0,
+        "name": "Login - Verify user can not login if email is blank and password is entered",
+        "referece": "scenarios/web/login.bdd",
+        "sign": "scenarios.web.login.bdd.Login - Verify user can not login if email is blank and password is entered( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea]",
+        "testCaseId": [
+          "TCxxx"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1499662637889,
+      "duration": 5457,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "email": "qa1.infostretch@gmail.com",
+          "password": "Qa123456",
+          "invalidPassword": "Ta123456",
+          "formatPassword": "ta1111",
+          "invalidemail": "qa@tmail.commm",
+          "sqlemail": "test@example.com' OR 1 = 1 --"
+        }
+      ],
+      "metaData": {
+        "appName": [
+          "SingleCare"
+        ],
+        "author": [
+          "Satish Garnayak"
+        ],
+        "description": "Valid registered email and incorrect password",
+        "groups": [
+          "Regression",
+          "Negative",
+          "Web"
+        ],
+        "key": "logindata",
+        "lineNo": 37.0,
+        "name": "Login - Valid registered email and incorrect password",
+        "referece": "scenarios/web/login.bdd",
+        "sign": "scenarios.web.login.bdd.Login - Valid registered email and incorrect password( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]",
+        "testCaseId": [
+          "TCxxx"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1499662643360,
+      "duration": 8338,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "email": "qa1.infostretch@gmail.com",
+          "password": "Qa123456",
+          "invalidPassword": "Ta123456",
+          "formatPassword": "ta1111",
+          "invalidemail": "qa@tmail.commm",
+          "sqlemail": "test@example.com' OR 1 = 1 --"
+        }
+      ],
+      "metaData": {
+        "appName": [
+          "SingleCare"
+        ],
+        "author": [
+          "Satish Garnayak"
+        ],
+        "description": " Valid registered email and incorrect format password",
+        "groups": [
+          "Regression",
+          "Negative",
+          "Web"
+        ],
+        "key": "logindata",
+        "lineNo": 45.0,
+        "name": "Login - Valid registered email and incorrect format password",
+        "referece": "scenarios/web/login.bdd",
+        "sign": "scenarios.web.login.bdd.Login - Valid registered email and incorrect format password( java.util.Map)[pri:1004, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ec]",
+        "testCaseId": [
+          "TCxxx"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1499662651712,
+      "duration": 5298,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "email": "qa1.infostretch@gmail.com",
+          "password": "Qa123456",
+          "invalidPassword": "Ta123456",
+          "formatPassword": "ta1111",
+          "invalidemail": "qa@tmail.commm",
+          "sqlemail": "test@example.com' OR 1 = 1 --"
+        }
+      ],
+      "metaData": {
+        "appName": [
+          "SingleCare"
+        ],
+        "author": [
+          "Satish Garnayak"
+        ],
+        "description": " Login - Incorrect email and incorrect password",
+        "groups": [
+          "Regression",
+          "Negative",
+          "Web"
+        ],
+        "key": "logindata",
+        "lineNo": 54.0,
+        "name": "Login - Incorrect email and incorrect password",
+        "referece": "scenarios/web/login.bdd",
+        "sign": "scenarios.web.login.bdd.Login - Incorrect email and incorrect password( java.util.Map)[pri:1005, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]",
+        "testCaseId": [
+          "TCxxx"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1499662657022,
+      "duration": 6703,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "email": "qa1.infostretch@gmail.com",
+          "password": "Qa123456",
+          "invalidPassword": "Ta123456",
+          "formatPassword": "ta1111",
+          "invalidemail": "qa@tmail.commm",
+          "sqlemail": "test@example.com' OR 1 = 1 --"
+        }
+      ],
+      "metaData": {
+        "appName": [
+          "SingleCare"
+        ],
+        "author": [
+          "Satish Garnayak"
+        ],
+        "description": " Login - SQL Injection",
+        "groups": [
+          "Regression",
+          "Negative",
+          "Web"
+        ],
+        "key": "logindata",
+        "lineNo": 71,
+        "name": "Login - SQL Injection",
+        "referece": "scenarios/web/login.bdd",
+        "sign": "scenarios.web.login.bdd.Login - SQL Injection( java.util.Map)[pri:1006, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ee]",
+        "testCaseId": [
+          "TCxxx"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1499662663744,
+      "duration": 7230,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

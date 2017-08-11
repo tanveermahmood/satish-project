@@ -1,0 +1,24 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Verify the login page",
+        "groups": [
+          "Regression"
+        ],
+        "lineNo": 2,
+        "name": "Verify the login page",
+        "referece": "scenarios/suite1.bdd",
+        "sign": "scenarios.suite1.bdd.Verify the login page()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1497955814674,
+      "duration": 13189,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+
+SCENARIO: Sign Up - Verify Sign up page
+META-DATA: {"description":"Verify Sign up page","groups":["Regression","Positive"],"appName":["SingleCare"],"testCaseId":["TCxxx"],"author":["Satish Garnayak"]}
+	Given user is on singlecare 'home' page
+	When user navigates to 'signin' page
+	Then user verifies 'login' page
+	When user navigates to 'signup' page
+	Then user verifies signup page
+	When user navigates to 'member agreement' page
+	Then verify user is on 'member agreement' page
+	When user navigates to 'privacy policy' page
+	Then verify user is on 'privacy policy' page
+END
+
+SCENARIO: Sign Up - Verify user can sign up a account
+META-DATA: {"description":"Verify user can sign up a account","groups":["Regression","Positive"],"appName":["SingleCare"],"testCaseId":["TCxxx"],"author":["Satish Garnayak"]}
+	Given user is on singlecare 'home' page
+	When user navigates to 'signin' page
+	Then user verifies 'login' page
+	When user navigates to 'signup' page
+	Then verify user is on 'signup' page
+	And user do signup in signup page
+	Then user gets welcome popup message
+END
+ 

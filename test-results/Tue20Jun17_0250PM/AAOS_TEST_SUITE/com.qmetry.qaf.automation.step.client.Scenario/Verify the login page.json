@@ -1,0 +1,59 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userNavigates",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://qa.singlecare.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 11284
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1268
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Affordable Health Care & Discounts on Medical Services | SingleCare",
+          "subLogs": [],
+          "duration": 12
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user navigates",
+      "type": "TestStepPass",
+      "duration": 15892,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "We are on singlecare page\nExpected: \"Affordable Health Care & Discounts on Medical Services | SingleCare\"\n     Actual: was \"Affordable Health Care & Discounts on Medical Services | SingleCare\"",
+          "type": "Pass",
+          "screenshot": "img/Verify the login page_1av6jmpirn2it63964.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

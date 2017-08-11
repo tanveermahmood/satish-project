@@ -1,0 +1,114 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userNavigates",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://qa.singlecare.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 7927
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1307
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Affordable Health Care & Discounts on Medical Services | SingleCare",
+          "subLogs": [],
+          "duration": 19
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyHomePage",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href=\"/login/\"], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href=\"/login/\"]\"}\n  (Session info: chrome=58.0.3029.110)\n  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 25 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12040', ip: '10.11.28.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\\Users\\NEHA~1.SEN\\AppData\\Local\\Temp\\scoped_dir9452_32543}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 8002c40560b6cb6e56af075975abdc51\n*** Element info: {Using=xpath, value=//a[@href=\"/login/\"]}",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href=\"/login/\"], using=xpath}"
+          ],
+          "result": "id: 0.39719245406094195-1",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //a[@href=\"/login/\"]",
+            "{\"id\":\"0.39719245406094195-1\"}"
+          ],
+          "result": "getElementText:Sign in/Register",
+          "subLogs": [],
+          "duration": 68
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user navigates",
+      "type": "TestStepPass",
+      "duration": 12668,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "We are on singlecare page\nExpected: \"Affordable Health Care & Discounts on Medical Services | SingleCare\"\n     Actual: was \"Affordable Health Care & Discounts on Medical Services | SingleCare\"",
+          "type": "Pass",
+          "screenshot": "img/Verify the login page_1ivtizeiapvzq47026.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then verify home page",
+      "type": "TestStepFail",
+      "screenshot": "img/Verify the login page_15jbncscz6w5j47027.png",
+      "duration": 1302,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "We are on singlecare page\nExpected: \"Affordable Health Care & Discounts on Medical Services | SingleCare\"\n     Actual: was \"Sign in/Register\"",
+          "type": "Fail",
+          "screenshot": "img/Verify the login page_15jbncscz6w5j47027.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

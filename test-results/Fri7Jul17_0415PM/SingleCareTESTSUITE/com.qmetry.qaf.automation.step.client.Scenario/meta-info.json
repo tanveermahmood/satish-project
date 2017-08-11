@@ -1,0 +1,64 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "appName": [
+          "SingleCare"
+        ],
+        "author": [
+          "Satish Garnayak"
+        ],
+        "description": "Verify Sign up page",
+        "groups": [
+          "Regression",
+          "Positive"
+        ],
+        "lineNo": 2.0,
+        "name": "Sign Up - Verify Sign up page",
+        "referece": "scenarios/web/signup.bdd",
+        "sign": "scenarios.web.signup.bdd.Sign Up - Verify Sign up page()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]",
+        "testCaseId": [
+          "TCxxx"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1499424333810,
+      "duration": 28238,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "appName": [
+          "SingleCare"
+        ],
+        "author": [
+          "Satish Garnayak"
+        ],
+        "description": "Verify user can sign up a account",
+        "groups": [
+          "Regression",
+          "Positive"
+        ],
+        "lineNo": 15,
+        "name": "Sign Up - Verify user can sign up a account",
+        "referece": "scenarios/web/signup.bdd",
+        "sign": "scenarios.web.signup.bdd.Sign Up - Verify user can sign up a account()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]",
+        "testCaseId": [
+          "TCxxx"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1499424362081,
+      "duration": 40307,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

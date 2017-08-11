@@ -1,0 +1,130 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userNavigates",
+      "args": [
+        "[Home Page]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://qa.singlecare.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 5714
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1167
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyPage",
+      "args": [
+        "[Home Page]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "SingleCare: Affordable Health Care & Pharmacy Discount Card",
+          "subLogs": [],
+          "duration": 46
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifySignInLinkOnHomePage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href=\"/login/\"], using=xpath}"
+          ],
+          "result": "id: 0.9069857458154351-1",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //a[@href=\"/login/\"]",
+            "{\"id\":\"0.9069857458154351-1\"}"
+          ],
+          "result": "getElementText:Sign in/Register",
+          "subLogs": [],
+          "duration": 23
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user navigates to 'Home Page'",
+      "type": "TestStepPass",
+      "duration": 9953,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verifies 'Home Page'",
+      "type": "TestStepFail",
+      "screenshot": "img/Verify the login page_1eyrhwguck60h2175.png",
+      "duration": 440,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Page title is SingleCare: Affordable Health Care & Pharmacy Discount Card",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "We are on singlecare page\nExpected: \"Affordable Health Care & Discounts on Medical Services | SingleCare\"\n     Actual: was \"SingleCare: Affordable Health Care & Pharmacy Discount Card\"",
+          "type": "Fail",
+          "screenshot": "img/Verify the login page_1eyrhwguck60h2175.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "AND verify Sign in Link on home page",
+      "type": "TestStepPass",
+      "duration": 354,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Sign in Link is displayed on Home Page",
+          "type": "Pass",
+          "screenshot": "img/Verify the login page_9mnv5e23in6i2176.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

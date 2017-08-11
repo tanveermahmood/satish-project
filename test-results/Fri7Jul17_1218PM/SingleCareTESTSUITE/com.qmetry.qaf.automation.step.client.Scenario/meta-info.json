@@ -1,0 +1,34 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "appName": [
+          "SingleCare"
+        ],
+        "author": [
+          "Satish Garnayak"
+        ],
+        "description": "Verify user can sign up a account",
+        "groups": [
+          "Regression",
+          "Positive"
+        ],
+        "lineNo": 15,
+        "name": "Sign Up - Verify user can sign up a account",
+        "referece": "scenarios/web/signup.bdd",
+        "sign": "scenarios.web.signup.bdd.Sign Up - Verify user can sign up a account()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]",
+        "testCaseId": [
+          "TCxxx"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1499410133272,
+      "duration": 26439,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

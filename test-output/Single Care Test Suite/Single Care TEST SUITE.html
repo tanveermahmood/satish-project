@@ -1,0 +1,191 @@
+<html>
+<head>
+<title>TestNG:  Single Care TEST SUITE</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Single Care TEST SUITE</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 10 10:26:48 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>62 seconds (62173 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Negative </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Login - Incorrect email and incorrect password()'><b>Login - Incorrect email and incorrect password</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Login - Incorrect email and incorrect password)<br>Test method:  Login - Incorrect email and incorrect password<br>Parameters: {email=qa1.infostretch@gmail.com, password=Qa123456, invalidPassword=Ta123456, formatPassword=ta1111, invalidemail=qa@tmail.commm, sqlemail=test@example.com' OR 1 = 1 --}<br/>
+<a href="#Output-1390301622" onClick='toggleBox("Output-1390301622", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1390301622" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1390301622">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on singlecare 'home' page</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Page title is SingleCare: Affordable Health Care & Pharmacy Discount Card</div><div  class="pass"><span class="pass-label">P </span>We are on singlecare page
+Expected: "SingleCare: Affordable Health Care & Pharmacy Discount Card"
+     Actual: was "SingleCare: Affordable Health Care & Pharmacy Discount Card" <a href="img/Login - Incorrect email and incorrect password_7tngnme8uyc33820.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user navigates to 'signin' page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user login with 'qa@tmail.commm' and 'Ta123456'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets error message</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Error message Displayed
+Expected: a string containing "We don't recognize that account information. Please try entering it again."
+     Actual: was "We don't recognize that account information. Please try entering it again." <a href="img/Login - Incorrect email and incorrect password_1rth5xj5e2kn23821.png" target="_blank">[View Screenshot]</a> </div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Login - SQL Injection()'><b>Login - SQL Injection</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Login - SQL Injection)<br>Test method:  Login - SQL Injection<br>Parameters: {email=qa1.infostretch@gmail.com, password=Qa123456, invalidPassword=Ta123456, formatPassword=ta1111, invalidemail=qa@tmail.commm, sqlemail=test@example.com' OR 1 = 1 --}<br/>
+<a href="#Output-1814423236" onClick='toggleBox("Output-1814423236", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1814423236" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1814423236">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on singlecare 'home' page</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Page title is SingleCare: Affordable Health Care & Pharmacy Discount Card</div><div  class="pass"><span class="pass-label">P </span>We are on singlecare page
+Expected: "SingleCare: Affordable Health Care & Pharmacy Discount Card"
+     Actual: was "SingleCare: Affordable Health Care & Pharmacy Discount Card" <a href="img/Login - SQL Injection_sgrl1dff3s2q3822.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user navigates to 'signin' page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user login with invalid 'test@example.com' OR 1 = 1 --' and valid 'Qa123456'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets invalid email error message</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Invalid Email Error message Displayed
+Expected: "Please enter a valid email."
+     Actual: was "Please enter a valid email." <a href="img/Login - SQL Injection_2oyd3hlva5do3823.png" target="_blank">[View Screenshot]</a> </div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ee</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Login - Valid registered email and incorrect format password()'><b>Login - Valid registered email and incorrect format password</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Login - Valid registered email and incorrect format password)<br>Test method:  Valid registered email and incorrect format password<br>Parameters: {email=qa1.infostretch@gmail.com, password=Qa123456, invalidPassword=Ta123456, formatPassword=ta1111, invalidemail=qa@tmail.commm, sqlemail=test@example.com' OR 1 = 1 --}<br/>
+<a href="#Output-892931811" onClick='toggleBox("Output-892931811", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-892931811" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-892931811">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on singlecare 'home' page</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Page title is SingleCare: Affordable Health Care & Pharmacy Discount Card</div><div  class="pass"><span class="pass-label">P </span>We are on singlecare page
+Expected: "SingleCare: Affordable Health Care & Pharmacy Discount Card"
+     Actual: was "SingleCare: Affordable Health Care & Pharmacy Discount Card" <a href="img/Login - Valid registered email and incorrect format password_wgpqpj57cmna3817.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user navigates to 'signin' page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user login with 'qa1.infostretch@gmail.com' and invalid 'ta1111'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets password error message</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Password Error message Displayed
+Expected: "This password does not meet the criteria. Please try again."
+     Actual: was "This password does not meet the criteria. Please try again." <a href="img/Login - Valid registered email and incorrect format password_1d9f00q1b3evz3818.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And verify user unable to log in</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Login Button disabled : Actual Login Button disabled <a href="img/Login - Valid registered email and incorrect format password_1bj1q8cn7zux73819.png" target="_blank">[View Screenshot]</a> </div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ec</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Login - Valid registered email and incorrect password()'><b>Login - Valid registered email and incorrect password</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Login - Valid registered email and incorrect password)<br>Test method: Valid registered email and incorrect password<br>Parameters: {email=qa1.infostretch@gmail.com, password=Qa123456, invalidPassword=Ta123456, formatPassword=ta1111, invalidemail=qa@tmail.commm, sqlemail=test@example.com' OR 1 = 1 --}<br/>
+<a href="#Output-751021317" onClick='toggleBox("Output-751021317", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-751021317" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-751021317">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on singlecare 'home' page</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Page title is SingleCare: Affordable Health Care & Pharmacy Discount Card</div><div  class="pass"><span class="pass-label">P </span>We are on singlecare page
+Expected: "SingleCare: Affordable Health Care & Pharmacy Discount Card"
+     Actual: was "SingleCare: Affordable Health Care & Pharmacy Discount Card" <a href="img/Login - Valid registered email and incorrect password_1q3gy4mmlxao73815.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user navigates to 'signin' page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user login with 'qa1.infostretch@gmail.com' and 'Ta123456'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets validation error message</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Error message Displayed
+Expected: a string containing "We don't recognize that account information. Please try entering it again."
+     Actual: was "We don't recognize that account information. Please try entering it again." <a href="img/Login - Valid registered email and incorrect password_g134ihkw7x033816.png" target="_blank">[View Screenshot]</a> </div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.Login - Verify user can not login if email and password fields are blank()'><b>Login - Verify user can not login if email and password fields are blank</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (Login - Verify user can not login if email and password fields are blank)<br>Test method: Verify user can not login if email and password fields are blank<br/>
+<a href="#Output-1816522350" onClick='toggleBox("Output-1816522350", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1816522350" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1816522350">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on singlecare 'home' page</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Page title is SingleCare: Affordable Health Care & Pharmacy Discount Card</div><div  class="pass"><span class="pass-label">P </span>We are on singlecare page
+Expected: "SingleCare: Affordable Health Care & Pharmacy Discount Card"
+     Actual: was "SingleCare: Affordable Health Care & Pharmacy Discount Card" <a href="img/Login - Verify user can not login if email and password fields are blank_iya4tkf3ajk13806.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user navigates to 'signin' page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user login with blank email and blank password</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets field error message</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Error message Displayed
+Expected: "This value is required."
+     Actual: was "This value is required." <a href="img/Login - Verify user can not login if email and password fields are blank_tu1ryweay8p63807.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And verify user unable to log in</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Login Button disabled : Actual Login Button disabled <a href="img/Login - Verify user can not login if email and password fields are blank_pqcmy0uxypkb3808.png" target="_blank">[View Screenshot]</a> </div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Login - Verify user can not login if email is blank and password is entered()'><b>Login - Verify user can not login if email is blank and password is entered</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Login - Verify user can not login if email is blank and password is entered)<br>Test method: Verify user can not login if email is blank and password is entered<br>Parameters: {email=qa1.infostretch@gmail.com, password=Qa123456, invalidPassword=Ta123456, formatPassword=ta1111, invalidemail=qa@tmail.commm, sqlemail=test@example.com' OR 1 = 1 --}<br/>
+<a href="#Output-2121995675" onClick='toggleBox("Output-2121995675", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2121995675" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2121995675">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on singlecare 'home' page</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Page title is SingleCare: Affordable Health Care & Pharmacy Discount Card</div><div  class="pass"><span class="pass-label">P </span>We are on singlecare page
+Expected: "SingleCare: Affordable Health Care & Pharmacy Discount Card"
+     Actual: was "SingleCare: Affordable Health Care & Pharmacy Discount Card" <a href="img/Login - Verify user can not login if email is blank and password is entered_ljlbnxjf20i93812.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user navigates to 'signin' page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user login with blank email and 'Qa123456'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets field error message</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Error message Displayed
+Expected: "This value is required."
+     Actual: was "This value is required." <a href="img/Login - Verify user can not login if email is blank and password is entered_gg4dksxpeq8u3813.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And verify user unable to log in</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Login Button disabled : Actual Login Button disabled <a href="img/Login - Verify user can not login if email is blank and password is entered_t271qosdjoob3814.png" target="_blank">[View Screenshot]</a> </div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Login - Verify user can not login if email is entered and password field is blank()'><b>Login - Verify user can not login if email is entered and password field is blank</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Login - Verify user can not login if email is entered and password field is blank)<br>Test method: Verify user can not login if email is entered and password field is blank<br>Parameters: {email=qa1.infostretch@gmail.com, password=Qa123456, invalidPassword=Ta123456, formatPassword=ta1111, invalidemail=qa@tmail.commm, sqlemail=test@example.com' OR 1 = 1 --}<br/>
+<a href="#Output-2092709730" onClick='toggleBox("Output-2092709730", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2092709730" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2092709730">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on singlecare 'home' page</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Page title is SingleCare: Affordable Health Care & Pharmacy Discount Card</div><div  class="pass"><span class="pass-label">P </span>We are on singlecare page
+Expected: "SingleCare: Affordable Health Care & Pharmacy Discount Card"
+     Actual: was "SingleCare: Affordable Health Care & Pharmacy Discount Card" <a href="img/Login - Verify user can not login if email is entered and password field is blank_1ojceflkb52ro3809.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user navigates to 'signin' page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user login with 'qa1.infostretch@gmail.com' and blank password</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets field error message</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Error message Displayed
+Expected: "This value is required."
+     Actual: was "This value is required." <a href="img/Login - Verify user can not login if email is entered and password field is blank_1v2jl25f63ccs3810.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And verify user unable to log in</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Login Button disabled : Actual Login Button disabled <a href="img/Login - Verify user can not login if email is entered and password field is blank_8vbl926nhryo3811.png" target="_blank">[View Screenshot]</a> </div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9</td></tr>
+</table><p>
+</body>
+</html>

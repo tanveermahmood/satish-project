@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [AAOS Test Suite]" parallel="tests">
+  <test name="Single Care TEST SUITE(failed)" parallel="tests">
+    <parameter name="scenario.file.loc" value="scenarios/suite1.bdd"/>
+    <parameter name="driver.name" value="chromeDriver"/>
+    <parameter name="step.provider.pkg" value="com.singlecare.steps"/>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <methods>
+          <include name="scenario"/>
+          <include name="afterSuit"/>
+          <include name="setupMethod"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </classes>
+  </test> <!-- Single Care TEST SUITE(failed) -->
+</suite> <!-- Failed suite [AAOS Test Suite] -->

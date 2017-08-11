@@ -1,0 +1,35 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "appName": [
+          "SingleCare"
+        ],
+        "author": [
+          "Satish Garnayak"
+        ],
+        "description": "Verify user can not login if email and password fields are blank",
+        "groups": [
+          "Regression",
+          "Negative",
+          "Web"
+        ],
+        "lineNo": 10,
+        "name": "Login - Verify user can not login if email and password fields are blank",
+        "referece": "scenarios/web/login.bdd",
+        "sign": "scenarios.web.login.bdd.Login - Verify user can not login if email and password fields are blank()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]",
+        "testCaseId": [
+          "TCxxx"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1499662608866,
+      "duration": 23379,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

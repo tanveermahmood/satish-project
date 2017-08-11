@@ -1,0 +1,14 @@
+login.loginpage.singlecare.logo = {\"locator\":\"css=.login--header>a\",\"desc\":\"Single Care logo\"}
+login.loginpage.login.text = {\"locator\":\"css=.login--header>h3\",\"desc\":\"Login Header\"}
+login.loginpage.email.input = {\"locator\":\"css=form.invalid>div.sc-form-row--email>input\",\"desc\":\"Email textbox\"}
+login.loginpage.password.input = {\"locator\":\"css=form.invalid>div.sc-form-row--password>input\",\"desc\":\"Password textbox\"}
+login.loginpage.rememberme.checkbox = {\"locator\":\"css=.sc-form__checkbox\",\"desc\":\"Remember me checkbox\"}
+login.loginpage.login.button = {\"locator\":\"css=.sc-form-row--submit button\",\"desc\":\"Login Button\"}
+login.loginpage.forgetpassword.button = {\"locator\":\"css=.login--link-center\",\"desc\":\"Forgot Password Link\"}
+login.loginpage.signup.message.text = {\"locator\":\"css=.login--cta-signup\",\"desc\":\"Don't have an account text\"}
+login.loginpage.signup.button = {\"locator\":\"link=Sign up for free\",\"desc\":\"Sign up for free link\"}
+login.loginpage.rememberme.label = {\"locator\":\"css=.sc-form__checkbox--label\",\"desc\":\"Remember me label\"}
+login.loginpage.error.msg.label =  {\"locator\":\"css=.invalid span.label-error\",\"desc\":\"Error message label\"}
+login.loginpage.header.error.msg.label = {\"locator\":\"css=.login--header>span.label-error\",\"desc\":\"Header Error message label\"}
+login.loginpage.password.error.msg.label = {\"locator\":\"css=.sc-form-row--password>span\",\"desc\":\"Password Error message label\"}
+login.loginpage.email.error.msg.label = {\"locator\":\"css=.sc-form-row--email>span.label-error\",\"desc\":\"Invalid Email Error  message label\"}

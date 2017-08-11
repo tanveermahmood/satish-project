@@ -1,0 +1,5 @@
+hometemplate.signin.link = {\"locator\":\"xpath=//a[@href='/login/']\",\"desc\":\"Link for Sign In\"}
+hometemplate.header.menu.list = {\"locator\":\"css=.sc-utils-show-desktop-only>li\",\"desc\":\"Header Navigation item list\"}
+hometemplate.singlecare.logo = {\"locator\":\"css=.sc-logo\",\"desc\":\"Single Care logo\"}
+hometemplate.left.header.section.list = {\"locator\":\"css=#main-header .sc-top-item.left\",\"desc\":\"Left header section item list\"}
+hometemplate.right.header.section.list = {\"locator\":\"css=#main-header .sc-top-item.right.show-from-xl\",\"desc\":\"Right header section item list\"}

@@ -1,0 +1,45 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Verify the login page",
+        "groups": [
+          "Regression"
+        ],
+        "lineNo": 3.0,
+        "name": "Verify the login page",
+        "referece": "scenarios/suite1.bdd",
+        "sign": "scenarios.suite1.bdd.Verify the login page()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1497949567853,
+      "duration": 175,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Verify the login page",
+        "groups": [
+          "Regression"
+        ],
+        "lineNo": 3,
+        "name": "Verify the login page",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "Verify the login pagewRsPvsqVZH",
+        "sign": "scenarios.suite1.bdd.Verify the login page()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1497949599572,
+      "duration": 179,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

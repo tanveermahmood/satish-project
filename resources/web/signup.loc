@@ -1,0 +1,20 @@
+signup.signuppage.overview.caption.text = {\"locator\":\"css=.step1-overview>h2\",\"desc\":\"Let's get started Header\"}
+signup.signuppage.overview.first.mesage.text = {\"locator\":\"css=.step1-overview>p:nth-child(2)\",\"desc\":\"Help us get to know you Text\"}
+signup.signuppage.overview.second.mesage.text = {\"locator\":\"css=.step1-overview>p:nth-child(3)\",\"desc\":\"Already have an account text\"}
+signup.signuppage.loginnow.link = {\"locator\":\"xpath=//div[@class=\\\"step1-overview\\\"]/descendant::a\",\"desc\":\"Login Link\"}
+signup.signuppage.firstname.input = {\"locator\":\"xpath=//form[@method='post']/descendant::input[1]\",\"desc\":\"First Name\"}
+signup.signuppage.lastname.input = {\"locator\":\"xpath=//form[@method='post']/descendant::input[2]\",\"desc\":\"Last Name\"}
+signup.signuppage.gender.radiobutton = {\"locator\":\"xpath=//span[text()='%s']\",\"desc\":\"Gender\"}
+signup.signuppage.dob.input = {\"locator\":\"xpath=//form[@method='post']/descendant::input[@name='BirthDate']\",\"desc\":\"Birth date\"}
+signup.signuppage.email.input = {\"locator\":\"xpath=//form[@method='post']/descendant::input[@type='email']\",\"desc\":\"Email\"}
+signup.signuppage.password.input = {\"locator\":\"xpath=//form[@method='post']/descendant::input[@type=\\\"password\\\"]\",\"desc\":\"Password\"}
+signup.signuppage.promocode.input = {\"locator\":\"css=#sc-form__promo-code\",\"desc\":\"Promo code\"}
+signup.signuppage.promocode.tooltip.link = {\"locator\":\"xpath=.sc-tip-link.active\",\"desc\":\"Promo code tool tip\"}
+signup.signuppage.promocode.tooltip.text = {\"locator\":\"css=#promo-tooltip\",\"desc\":\"Promo code text\"}
+signup.signuppage.promocode.gotit.text = {\"locator\":\"css=.sc-tip-txt-link\",\"desc\":\"Promo code Got it Text\"}
+signup.signuppage.continue.button = {\"locator\":\"xpath=//input[@value='Continue']\",\"desc\":\"Continue button\"}
+signup.signuppage.memberagreement.link = {\"locator\":\"xpath=//a[@href='/terms-and-conditions']\",\"desc\":\"Terms and Conditions link\"}
+signup.signuppage.privacypolicy.link = {\"locator\":\"xpath=//a[@href='/privacy-policy']\",\"desc\":\"Privacy Policy link\"}
+signup.signuppage.accept.text = {\"locator\":\"css=.step1-form--accept\"}
+signup.signuppage.welcome.popup.text= {\"locator\":\"css=.modalTour>h2.text-center\",\"desc\":\"Welcome Popup message\"}           
+                

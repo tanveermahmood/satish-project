@@ -1,0 +1,103 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userNavigates",
+      "args": [
+        "[Home Page]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://qa.singlecare.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 4243
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1228
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyPage",
+      "args": [
+        "[Home Page]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "verifySignInLinkOnHomePage",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href=\"/login/\"], using=xpath}"
+          ],
+          "result": "id: 0.6265298157389114-1",
+          "subLogs": [],
+          "duration": 111
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //a[@href=\"/login/\"]",
+            "{\"id\":\"0.6265298157389114-1\"}"
+          ],
+          "result": "getElementText:Sign in/Register",
+          "subLogs": [],
+          "duration": 25
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user navigates to 'Home Page'",
+      "type": "TestStepPass",
+      "duration": 8615,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verifies 'Home Page'",
+      "type": "TestStepPass",
+      "duration": 1,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "AND verify Sign in Link on home page",
+      "type": "TestStepFail",
+      "screenshot": "img/Verify the login page_r6i2gmkl8slx17801.png",
+      "duration": 305,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Verify Sign in link on home page\nExpected: \"Sign in | Register\"\n     Actual: was \"Sign in/Register\"",
+          "type": "Fail",
+          "screenshot": "img/Verify the login page_r6i2gmkl8slx17801.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

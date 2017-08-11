@@ -1,0 +1,11 @@
+{
+  "total": 7,
+  "pass": 0,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "startTime": 1499424629934,
+  "endTime": 0
+}

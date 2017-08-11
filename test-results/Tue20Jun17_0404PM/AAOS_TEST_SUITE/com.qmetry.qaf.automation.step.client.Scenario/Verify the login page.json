@@ -1,0 +1,87 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userNavigates",
+      "args": [
+        "[Home Page]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://qa.singlecare.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 5726
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1275
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifySignInLinkOnHomePage",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href=\"/login/\"], using=xpath}"
+          ],
+          "result": "id: 0.33773598197049237-1",
+          "subLogs": [],
+          "duration": 118
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //a[@href=\"/login/\"]",
+            "{\"id\":\"0.33773598197049237-1\"}"
+          ],
+          "result": "getElementText:Sign in/Register",
+          "subLogs": [],
+          "duration": 31
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user navigates to 'Home Page'",
+      "type": "TestStepPass",
+      "duration": 10139,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify Sign in Link on home page",
+      "type": "TestStepFail",
+      "screenshot": "img/Verify the login page_12v0i4hmlwtal64291.png",
+      "duration": 328,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Verify Sign in link on home page\nExpected: \"Sign in | Register\"\n     Actual: was \"Sign in/Register\"",
+          "type": "Fail",
+          "screenshot": "img/Verify the login page_12v0i4hmlwtal64291.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

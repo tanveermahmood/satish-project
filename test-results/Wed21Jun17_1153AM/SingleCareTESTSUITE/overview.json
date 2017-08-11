@@ -1,0 +1,68 @@
+{
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "browserName": "chrome",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "version": "",
+      "platform": "ANY",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "applicationCacheEnabled": "false",
+      "rotatable": "false",
+      "mobileEmulationEnabled": "false",
+      "networkConnectionEnabled": "false",
+      "chrome": "{chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\\Users\\NEHA~1.SEN\\AppData\\Local\\Temp\\scoped_dir872_15236}",
+      "takesHeapSnapshot": "true",
+      "pageLoadStrategy": "normal",
+      "databaseEnabled": "false",
+      "handlesAlerts": "true",
+      "hasTouchScreen": "false",
+      "version": "59.0.3071.109",
+      "platform": "XP",
+      "browserConnectionEnabled": "false",
+      "nativeEvents": "true",
+      "acceptSslCerts": "true",
+      "locationContextEnabled": "true",
+      "webStorageEnabled": "true",
+      "browserName": "chrome",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "cssSelectorsEnabled": "true",
+      "unexpectedAlertBehaviour": ""
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "11",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "17-Apr-2017 02:20:41"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "scenario.file.loc": "scenarios/web/signup.bdd",
+      "baseurl": "https://qa.singlecare.com",
+      "driver.name": "chromeDriver",
+      "step.provider.pkg": "com.singlecare.web.steps"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_131",
+      "os.arch": "amd64",
+      "host": "ICPL12040",
+      "os.name": "Windows 10",
+      "user.name": "neha.sengar",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1498026246682,
+  "endTime": 1498026246804
+}

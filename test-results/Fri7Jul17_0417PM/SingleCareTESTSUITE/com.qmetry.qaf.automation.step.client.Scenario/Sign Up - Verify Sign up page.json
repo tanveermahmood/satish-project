@@ -1,0 +1,955 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchApp",
+      "args": [
+        "[home]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://qa.singlecare.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 5749
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1166
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "SingleCare: Affordable Health Care & Pharmacy Discount Card",
+          "subLogs": [],
+          "duration": 18
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userPerformOnPage",
+      "args": [
+        "[signin]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@href='/login/'], using=xpath}"
+          ],
+          "result": "[id: 0.025336072391851205-1]",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='/login/'], using=xpath}"
+          ],
+          "result": "id: 0.025336072391851205-1",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[@href='/login/']",
+            "{\"id\":\"0.025336072391851205-1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='/login/'], using=xpath}"
+          ],
+          "result": "id: 0.025336072391851205-1",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@href='/login/']",
+            "{\"id\":\"0.025336072391851205-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2388
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyPage",
+      "args": [
+        "[login]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Login",
+          "subLogs": [],
+          "duration": 93
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userPerformOnPage",
+      "args": [
+        "[signup]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Sign up for free, using=link text}"
+          ],
+          "result": "[id: 0.16262132784654781-1]",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=Sign up for free, using=link text}"
+          ],
+          "result": "id: 0.16262132784654781-1",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.linkText: Sign up for free",
+            "{\"id\":\"0.16262132784654781-1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=Sign up for free, using=link text}"
+          ],
+          "result": "id: 0.16262132784654781-1",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.linkText: Sign up for free",
+            "{\"id\":\"0.16262132784654781-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 5421
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userVerifySignupPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.step1-overview>h2, using=css selector}"
+          ],
+          "result": "id: 0.7622077191289498-1",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .step1-overview>h2",
+            "{\"id\":\"0.7622077191289498-1\"}"
+          ],
+          "result": "getElementText:Let's get started",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.step1-overview>p:nth-child(2), using=css selector}"
+          ],
+          "result": "id: 0.7622077191289498-2",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .step1-overview>p:nth-child(2)",
+            "{\"id\":\"0.7622077191289498-2\"}"
+          ],
+          "result": "getElementText:Help us get to know you. Remember, there are no ongoing fees.",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.step1-overview>p:nth-child(3), using=css selector}"
+          ],
+          "result": "id: 0.7622077191289498-3",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .step1-overview>p:nth-child(3)",
+            "{\"id\":\"0.7622077191289498-3\"}"
+          ],
+          "result": "getElementText:Already have an account? Log in now",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//div[@class=\"step1-overview\"]/descendant::a, using=xpath}"
+          ],
+          "result": "id: 0.7622077191289498-4",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class=\"step1-overview\"]/descendant::a",
+            "{\"id\":\"0.7622077191289498-4\"}"
+          ],
+          "result": "getElementText:Log in now",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[1], using=xpath}"
+          ],
+          "result": "[id: 0.7622077191289498-5]",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[1], using=xpath}"
+          ],
+          "result": "id: 0.7622077191289498-5",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[1]",
+            "{\"id\":\"0.7622077191289498-5\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[2], using=xpath}"
+          ],
+          "result": "[id: 0.7622077191289498-6]",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[2], using=xpath}"
+          ],
+          "result": "id: 0.7622077191289498-6",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[2]",
+            "{\"id\":\"0.7622077191289498-6\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Male'], using=xpath}"
+          ],
+          "result": "id: 0.7622077191289498-7",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[text()='Male']",
+            "{\"id\":\"0.7622077191289498-7\"}"
+          ],
+          "result": "getElementText:Male",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Female'], using=xpath}"
+          ],
+          "result": "id: 0.7622077191289498-8",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[text()='Female']",
+            "{\"id\":\"0.7622077191289498-8\"}"
+          ],
+          "result": "getElementText:Female",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[@name='BirthDate'], using=xpath}"
+          ],
+          "result": "[id: 0.7622077191289498-9]",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[@name='BirthDate'], using=xpath}"
+          ],
+          "result": "id: 0.7622077191289498-9",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[@name='BirthDate']",
+            "{\"id\":\"0.7622077191289498-9\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[@type='email'], using=xpath}"
+          ],
+          "result": "[id: 0.7622077191289498-10]",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[@type='email'], using=xpath}"
+          ],
+          "result": "id: 0.7622077191289498-10",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[@type='email']",
+            "{\"id\":\"0.7622077191289498-10\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[@type=\"password\"], using=xpath}"
+          ],
+          "result": "[id: 0.7622077191289498-11]",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[@type=\"password\"], using=xpath}"
+          ],
+          "result": "id: 0.7622077191289498-11",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[@type=\"password\"]",
+            "{\"id\":\"0.7622077191289498-11\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=#sc-form__promo-code, using=css selector}"
+          ],
+          "result": "[id: 0.7622077191289498-12]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#sc-form__promo-code, using=css selector}"
+          ],
+          "result": "id: 0.7622077191289498-12",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.cssSelector: #sc-form__promo-code",
+            "{\"id\":\"0.7622077191289498-12\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//input[@value='Continue'], using=xpath}"
+          ],
+          "result": "[id: 0.7622077191289498-13]",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@value='Continue'], using=xpath}"
+          ],
+          "result": "id: 0.7622077191289498-13",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //input[@value='Continue']",
+            "{\"id\":\"0.7622077191289498-13\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@href='/terms-and-conditions'], using=xpath}"
+          ],
+          "result": "[id: 0.7622077191289498-14]",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='/terms-and-conditions'], using=xpath}"
+          ],
+          "result": "id: 0.7622077191289498-14",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[@href='/terms-and-conditions']",
+            "{\"id\":\"0.7622077191289498-14\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@href='/privacy-policy'], using=xpath}"
+          ],
+          "result": "[id: 0.7622077191289498-15]",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='/privacy-policy'], using=xpath}"
+          ],
+          "result": "id: 0.7622077191289498-15",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[@href='/privacy-policy']",
+            "{\"id\":\"0.7622077191289498-15\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 24
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userPerformOnPage",
+      "args": [
+        "[member agreement]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@href='/terms-and-conditions'], using=xpath}"
+          ],
+          "result": "[id: 0.7622077191289498-14]",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='/terms-and-conditions'], using=xpath}"
+          ],
+          "result": "id: 0.7622077191289498-14",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[@href='/terms-and-conditions']",
+            "{\"id\":\"0.7622077191289498-14\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='/terms-and-conditions'], using=xpath}"
+          ],
+          "result": "id: 0.7622077191289498-14",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@href='/terms-and-conditions']",
+            "{\"id\":\"0.7622077191289498-14\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1776
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userVerifyPage",
+      "args": [
+        "[member agreement]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Terms and Conditions",
+          "subLogs": [],
+          "duration": 6
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 175
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userPerformOnPage",
+      "args": [
+        "[privacy policy]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@href='/privacy-policy'], using=xpath}"
+          ],
+          "result": "[id: 0.8972044418306049-1]",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='/privacy-policy'], using=xpath}"
+          ],
+          "result": "id: 0.8972044418306049-1",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@href='/privacy-policy']",
+            "{\"id\":\"0.8972044418306049-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1397
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userVerifyPage",
+      "args": [
+        "[privacy policy]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Privacy Policy",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "goBack",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 155
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user is on singlecare 'home' page",
+      "type": "TestStepPass",
+      "duration": 9624,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Page title is SingleCare: Affordable Health Care & Pharmacy Discount Card",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "We are on singlecare page\nExpected: \"SingleCare: Affordable Health Care & Pharmacy Discount Card\"\n     Actual: was \"SingleCare: Affordable Health Care & Pharmacy Discount Card\"",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify Sign up page_zqm0yy1o1gjq65518.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user navigates to 'signin' page",
+      "type": "TestStepPass",
+      "duration": 2497,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verifies 'login' page",
+      "type": "TestStepPass",
+      "duration": 630,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Page title is Login",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "We are on Login page\nExpected: \"Login\"\n     Actual: was \"Login\"",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify Sign up page_1fc76uj4ubadn65519.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user navigates to 'signup' page",
+      "type": "TestStepPass",
+      "duration": 5527,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verifies signup page",
+      "type": "TestStepPass",
+      "duration": 5403,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Label Text Present \nExpected: \"Let's get started\"\n     Actual: was \"Let's get started\"",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify Sign up page_19v3v1ujxmlzr65520.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Label Text Present \nExpected: \"Help us get to know you. Remember, there are no ongoing fees.\"\n     Actual: was \"Help us get to know you. Remember, there are no ongoing fees.\"",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify Sign up page_13g6ca23h2b7u65521.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Label Text Present \nExpected: a string containing \"Already have an account?\"\n     Actual: was \"Already have an account? Log in now\"",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify Sign up page_1ovy6qdlv9lj65522.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Label Text Present \nExpected: a string containing \"Log in now\"\n     Actual: was \"Log in now\"",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify Sign up page_b35coxmlnjqe65523.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected First Name visible : Actual First Name visible",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify Sign up page_1o0gj8nlpbo9q65524.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Last Name visible : Actual Last Name visible",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify Sign up page_lm53pggn8adc65525.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Gender Male is visible \nExpected: \"Male\"\n     Actual: was \"Male\"",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify Sign up page_1k5vzeat40fgg65526.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Gender Female is visible \nExpected: \"Female\"\n     Actual: was \"Female\"",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify Sign up page_1wc1m9byqjse865527.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Birth date visible : Actual Birth date visible",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify Sign up page_1rbjbe5z70cn665528.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Email visible : Actual Email visible",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify Sign up page_1uv1y09m3vg0465529.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Password visible : Actual Password visible",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify Sign up page_1857t0hwevtig65530.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Promo code visible : Actual Promo code visible",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify Sign up page_127cjffjx4xd65531.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Continue button visible : Actual Continue button visible",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify Sign up page_p5e0j57mpcgc65532.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Terms and Conditions link visible : Actual Terms and Conditions link visible",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify Sign up page_11sudv2h1xn2e65533.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected Privacy Policy link visible : Actual Privacy Policy link visible",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify Sign up page_1gpqjk8jnb4xv65534.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user navigates to 'member agreement' page",
+      "type": "TestStepPass",
+      "duration": 1828,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify user is on 'member agreement' page",
+      "type": "TestStepPass",
+      "duration": 569,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Page title is Terms and Conditions",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "We are on Member agreement page\nExpected: \"Terms and Conditions\"\n     Actual: was \"Terms and Conditions\"",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify Sign up page_1psuw1h9ryfgq65535.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user navigates to 'privacy policy' page",
+      "type": "TestStepPass",
+      "duration": 1458,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify user is on 'privacy policy' page",
+      "type": "TestStepPass",
+      "duration": 534,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Page title is Privacy Policy",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "We are on Privacy policy page\nExpected: \"Privacy Policy\"\n     Actual: was \"Privacy Policy\"",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify Sign up page_1oxo9rdvu13oz65536.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

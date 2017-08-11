@@ -1,0 +1,10 @@
+<data>
+    <logindata>
+         <email>qinfostretch@gmail.com</email>
+         <password>Qa12222</password>
+         <invalidPassword>Ta123456</invalidPassword>
+         <formatPassword>ta1111</formatPassword>
+         <invalidemail>qa@pmail.commm</invalidemail>
+         <sqlemail>test@example.com' OR 1 = 1 --</sqlemail>
+    </logindata>
+</data>

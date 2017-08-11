@@ -1,0 +1,19 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Single Care Test Suite" verbose="1" preserve-order="true">
+
+	<!-- For Destop Web -->
+	<test name="Single Care TEST SUITE" enabled="true">
+		<parameter name="env.properties" value="resources/web"></parameter>
+		<parameter name="scenario.file.loc" value="scenarios/web/login.bdd"></parameter>
+		<groups>
+			<run>
+				<include name="Negative"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
+		</classes>
+	</test>
+
+</suite>

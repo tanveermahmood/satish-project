@@ -1,0 +1,1066 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchApp",
+      "args": [
+        "[home]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://qa.singlecare.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1489
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "SingleCare: Affordable Health Care & Pharmacy Discount Card",
+          "subLogs": [],
+          "duration": 47
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userPerformOnPage",
+      "args": [
+        "[signin]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@href='/login/'], using=xpath}"
+          ],
+          "result": "[id: 0.0011749709821913257-1]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='/login/'], using=xpath}"
+          ],
+          "result": "id: 0.0011749709821913257-1",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[@href='/login/']",
+            "{\"id\":\"0.0011749709821913257-1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='/login/'], using=xpath}"
+          ],
+          "result": "id: 0.0011749709821913257-1",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@href='/login/']",
+            "{\"id\":\"0.0011749709821913257-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1234
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyPage",
+      "args": [
+        "[login]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Login",
+          "subLogs": [],
+          "duration": 57
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userPerformOnPage",
+      "args": [
+        "[signup]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Sign up for free, using=link text}"
+          ],
+          "result": "[id: 0.742304845960482-1]",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=Sign up for free, using=link text}"
+          ],
+          "result": "id: 0.742304845960482-1",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.linkText: Sign up for free",
+            "{\"id\":\"0.742304845960482-1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=Sign up for free, using=link text}"
+          ],
+          "result": "id: 0.742304845960482-1",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.linkText: Sign up for free",
+            "{\"id\":\"0.742304845960482-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1549
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userVerifyPage",
+      "args": [
+        "[signup]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Account Setup",
+          "subLogs": [],
+          "duration": 23
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userDoSignup",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[1], using=xpath}"
+          ],
+          "result": "[id: 0.05926228718756854-1]",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[1], using=xpath}"
+          ],
+          "result": "id: 0.05926228718756854-1",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[1]",
+            "{\"id\":\"0.05926228718756854-1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[1], using=xpath}"
+          ],
+          "result": "id: 0.05926228718756854-1",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[1]",
+            "{\"id\":\"0.05926228718756854-1\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[1], using=xpath}"
+          ],
+          "result": "id: 0.05926228718756854-1",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[1]",
+            "{\"id\":\"0.05926228718756854-1\",\"value\":[\"AyDmAr\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 85
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[2], using=xpath}"
+          ],
+          "result": "[id: 0.05926228718756854-2]",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[2], using=xpath}"
+          ],
+          "result": "id: 0.05926228718756854-2",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[2]",
+            "{\"id\":\"0.05926228718756854-2\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[2], using=xpath}"
+          ],
+          "result": "id: 0.05926228718756854-2",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[2]",
+            "{\"id\":\"0.05926228718756854-2\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[2], using=xpath}"
+          ],
+          "result": "id: 0.05926228718756854-2",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[2]",
+            "{\"id\":\"0.05926228718756854-2\",\"value\":[\"SVSU\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 74
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Male'], using=xpath}"
+          ],
+          "result": "id: 0.05926228718756854-3",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //span[text()='Male']",
+            "{\"id\":\"0.05926228718756854-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 84
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[@name='BirthDate'], using=xpath}"
+          ],
+          "result": "[id: 0.05926228718756854-4]",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[@name='BirthDate'], using=xpath}"
+          ],
+          "result": "id: 0.05926228718756854-4",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[@name='BirthDate']",
+            "{\"id\":\"0.05926228718756854-4\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[@name='BirthDate'], using=xpath}"
+          ],
+          "result": "id: 0.05926228718756854-4",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[@name='BirthDate']",
+            "{\"id\":\"0.05926228718756854-4\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[@name='BirthDate'], using=xpath}"
+          ],
+          "result": "id: 0.05926228718756854-4",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[@name='BirthDate']",
+            "{\"id\":\"0.05926228718756854-4\",\"value\":[\"06/08/1975\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 86
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[@type='email'], using=xpath}"
+          ],
+          "result": "[id: 0.05926228718756854-5]",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[@type='email'], using=xpath}"
+          ],
+          "result": "id: 0.05926228718756854-5",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[@type='email']",
+            "{\"id\":\"0.05926228718756854-5\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[@type='email'], using=xpath}"
+          ],
+          "result": "id: 0.05926228718756854-5",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[@type='email']",
+            "{\"id\":\"0.05926228718756854-5\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[@type='email'], using=xpath}"
+          ],
+          "result": "id: 0.05926228718756854-5",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[@type='email']",
+            "{\"id\":\"0.05926228718756854-5\",\"value\":[\"Infostretch+4@gmail.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 179
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[@type=\"password\"], using=xpath}"
+          ],
+          "result": "[id: 0.05926228718756854-6]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[@type=\"password\"], using=xpath}"
+          ],
+          "result": "id: 0.05926228718756854-6",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[@type=\"password\"]",
+            "{\"id\":\"0.05926228718756854-6\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[@type=\"password\"], using=xpath}"
+          ],
+          "result": "id: 0.05926228718756854-6",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[@type=\"password\"]",
+            "{\"id\":\"0.05926228718756854-6\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 611
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//form[@method='post']/descendant::input[@type=\"password\"], using=xpath}"
+          ],
+          "result": "id: 0.05926228718756854-6",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //form[@method='post']/descendant::input[@type=\"password\"]",
+            "{\"id\":\"0.05926228718756854-6\",\"value\":[\"D1sgyr@4264\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 155
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=#sc-form__promo-code, using=css selector}"
+          ],
+          "result": "[id: 0.05926228718756854-7]",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#sc-form__promo-code, using=css selector}"
+          ],
+          "result": "id: 0.05926228718756854-7",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.cssSelector: #sc-form__promo-code",
+            "{\"id\":\"0.05926228718756854-7\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#sc-form__promo-code, using=css selector}"
+          ],
+          "result": "id: 0.05926228718756854-7",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.cssSelector: #sc-form__promo-code",
+            "{\"id\":\"0.05926228718756854-7\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=#sc-form__promo-code, using=css selector}"
+          ],
+          "result": "id: 0.05926228718756854-7",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: #sc-form__promo-code",
+            "{\"id\":\"0.05926228718756854-7\",\"value\":[\"QATEST001\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 127
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@value='Continue'], using=xpath}"
+          ],
+          "result": "id: 0.05926228718756854-8",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //input[@value='Continue']",
+            "{\"id\":\"0.05926228718756854-8\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@value='Continue'], using=xpath}"
+          ],
+          "result": "id: 0.05926228718756854-8",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //input[@value='Continue']",
+            "{\"id\":\"0.05926228718756854-8\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1570
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userVerifyWelcomePopupMsg",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.modalTour>h2.text-center, using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 15
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user is on singlecare 'home' page",
+      "type": "TestStepPass",
+      "duration": 2013,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Page title is SingleCare: Affordable Health Care & Pharmacy Discount Card",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "We are on singlecare page\nExpected: \"SingleCare: Affordable Health Care & Pharmacy Discount Card\"\n     Actual: was \"SingleCare: Affordable Health Care & Pharmacy Discount Card\"",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify user can sign up a account_tnkrjtuwgaxx27788.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user navigates to 'signin' page",
+      "type": "TestStepPass",
+      "duration": 1322,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verifies 'login' page",
+      "type": "TestStepPass",
+      "duration": 465,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Page title is Login",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "We are on Login page\nExpected: \"Login\"\n     Actual: was \"Login\"",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify user can sign up a account_1t7t7kl6c6r7427789.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user navigates to 'signup' page",
+      "type": "TestStepPass",
+      "duration": 1654,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify user is on 'signup' page",
+      "type": "TestStepPass",
+      "duration": 323,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Page title is Account Setup",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "We are on Signup page\nExpected: \"Account Setup\"\n     Actual: was \"Account Setup\"",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify user can sign up a account_1enr3wt1bxvly27790.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user do signup in signup page",
+      "type": "TestStepPass",
+      "duration": 4047,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Continue button enabled : Actual Continue button enabled",
+          "type": "Pass",
+          "screenshot": "img/Sign Up - Verify user can sign up a account_wpl6iaatx2f27791.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then user gets welcome popup message",
+      "type": "TestStepFail",
+      "screenshot": "img/Sign Up - Verify user can sign up a account_1m63ps24redeu27792.png",
+      "duration": 30455,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 30 seconds: Wait time out for Welcome Popup message to be visible\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11465', ip: '10.11.31.46', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: unknown",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for Welcome Popup message to be visible\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11465', ip: '10.11.31.46', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: unknown\r\n\tat .Then user gets welcome popup message(scenarios/web/signup.bdd:23)\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:478)\r\n\tat com.singlecare.web.pages.SignupTestPage.verifyWelcomepopupMsg(SignupTestPage.java:168)\r\n\tat com.singlecare.web.steps.SignupStepDefs.userVerifyWelcomePopupMsg(SignupStepDefs.java:32)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:156)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

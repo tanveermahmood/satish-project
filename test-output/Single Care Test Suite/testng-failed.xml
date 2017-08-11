@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Single Care Test Suite]">
+  <test name="Single Care TEST SUITE(failed)">
+    <parameter name="env.properties" value="resources/web"/>
+    <parameter name="scenario.file.loc" value="scenarios/web/signup.bdd"/>
+    <groups>
+      <run>
+        <include name="Positive"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <methods>
+          <include name="scenario"/>
+          <include name="setupMethod"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </classes>
+  </test> <!-- Single Care TEST SUITE(failed) -->
+</suite> <!-- Failed suite [Single Care Test Suite] -->

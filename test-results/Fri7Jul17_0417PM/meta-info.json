@@ -1,0 +1,13 @@
+{
+  "name": "Single Care Test Suite",
+  "status": "pass",
+  "tests": [
+    "SingleCareTESTSUITE"
+  ],
+  "total": 2,
+  "pass": 2,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1499424422363,
+  "endTime": 1499424486259
+}
